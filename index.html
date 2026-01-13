@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment MR </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADING -->
+<div id="loading">
+  <div class="loader"></div>
+  <p>Memuat Pembayaran...</p>
+</div>
+
+<!-- CONTENT -->
+<div class="container" id="content">
+
+  <div class="profile">
+    <img src="profile.jpg" alt="Akbar">
+    <h2>AKBAR</h2>
+    <p>Payment Resmi</p>
+  </div>
+
+  <!-- VIDEO -->
+  <div class="video-box">
+    <video controls>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- PAYMENT -->
+  <div class="payment">
+    <div class="card">
+      <h3>DANA</h3>
+      <p>085879616788</p>
+      <span>A/N AKBAR</span>
+    </div>
+
+    <div class="card">
+      <h3>GOPAY</h3>
+      <p>085864868243</p>
+      <span>A/N Bar Barsolo</span>
+    </div>
+  </div>
+
+  <!-- SOSIAL -->
+  <div class="social">
+    <a href="https://wa.me/6285864868243" class="wa">WhatsApp</a>
+    <a href="https://t.me/+rgCYEIF3ZKU5NmVl" class="tg">Telegram</a>
+    <a href="tiktok.com/@mrteknologi88" class="tt">TikTok</a>
+  </div>
+
+</div>
+
+<script>
+  window.onload = function () {
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("content").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
